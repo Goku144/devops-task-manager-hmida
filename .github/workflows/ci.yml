@@ -27,4 +27,7 @@ jobs:
       - name: Run Tests
         run: npm test
 
+      - name: Build and run docker
+        run: docker build -t task-manager-api .
+
 
